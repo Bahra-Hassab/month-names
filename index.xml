@@ -1,39 +1,647 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet href="template.xsl" type="text/xsl"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+
   <teiHeader>
     <fileDesc>
-
       <titleStmt>
         <title></title>
       </titleStmt>
-
       <publicationStmt>
         <ab/>
       </publicationStmt>
-
       <sourceDesc>
         <ab/>
       </sourceDesc>
-
     </fileDesc>
 
     <profileDesc>
       <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="cop">Coptic</language>
         <language ident="en">English</language>
         <language ident="gez">Gǝʿǝz</language>
+        <language ident="grc">Greek</language>
+        <language ident="hbo">Hebrew</language>
+        <language ident="lat">Latin</language>
+        <language ident="syr">Syriac</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
+
   <text>
 
     <body>
+
+      <div type="calendar">
+        <label>Alexandrian</label>
+
+        <div xml:lang="gez">
+
+            <entry n="1">
+              <form>
+                <orth type="standard">መስከረም፡</orth>
+                <orth type="transliterated">maskaram</orth>
+              </form>
+            </entry>
+
+            <entry n="2">
+              <form>
+                <orth type="standard">ጥቅምት፡</orth>
+                <orth type="transliterated">ṭǝqǝmt</orth>
+              </form>
+            </entry>
+
+            <entry n="3">
+              <form>
+                <orth type="standard">ኅዳር፡</orth>
+                <orth type="transliterated">ḫǝdār</orth>
+              </form>
+            </entry>
+
+            <entry n="4">
+              <form>
+                <orth type="standard">ታኅሣሥ፡</orth>
+                <orth type="transliterated">tāḫśāś</orth>
+              </form>
+            </entry>
+
+            <entry n="5">
+              <form>
+                <orth type="standard">ጥር፡</orth>
+                <orth type="transliterated">ṭǝrr</orth>
+              </form>
+            </entry>
+
+            <entry n="6">
+              <form>
+                <orth type="standard">የካቲት፡</orth>
+                <orth type="transliterated">yakkātit</orth>
+              </form>
+            </entry>
+
+            <entry n="7">
+              <form>
+                <orth type="standard">መጋቢት፡</orth>
+                <orth type="transliterated">maggābit</orth>
+              </form>
+            </entry>
+
+            <entry n="8">
+              <form>
+                <orth type="standard">ሚያዝያ፡</orth>
+                <orth type="transliterated">miyāzyā</orth>
+              </form>
+            </entry>
+
+            <entry n="9">
+              <form>
+                <orth type="standard">ግንቦት፡</orth>
+                <orth type="transliterated">gǝnbot</orth>
+              </form>
+            </entry>
+
+            <entry n="10">
+              <form>
+                <orth type="standard">ሰኔ፡</orth>
+                <orth type="transliterated">sane</orth>
+              </form>
+            </entry>
+
+            <entry n="11">
+              <form>
+                <orth type="standard">ሐምሌ፡</orth>
+                <orth type="transliterated">ḥamle</orth>
+              </form>
+            </entry>
+
+            <entry n="12">
+              <form>
+                <orth type="standard">ነሐሴ፡</orth>
+                <orth type="transliterated">naḥase</orth>
+              </form>
+            </entry>
+
+            <entry n="13">
+              <form>
+                <orth type="standard">ጳጕሜን፡</orth>
+                <orth type="transliterated">ṗāgʷǝmen</orth>
+              </form>
+            </entry>
+
+        </div>
+
+      </div>
+
+      <div type="calendar">
+        <label>Julian</label>
+
+        <div xml:lang="lat">
+
+          <entry n="1">
+            <form>
+              <orth type="standard">Januarius</orth>
+            </form>
+          </entry>
+
+          <entry n="2">
+            <form>
+              <orth type="standard">Februarius</orth>
+            </form>
+          </entry>
+
+          <entry n="3">
+            <form>
+              <orth type="standard">Martius</orth>
+            </form>
+          </entry>
+
+          <entry n="4">
+            <form>
+              <orth type="standard">Aprilis</orth>
+            </form>
+          </entry>
+
+          <entry n="5">
+            <form>
+              <orth type="standard">Maius</orth>
+            </form>
+          </entry>
+
+          <entry n="6">
+            <form>
+              <orth type="standard">Junius</orth>
+            </form>
+          </entry>
+
+          <entry n="7">
+            <form>
+              <orth type="standard">Julius</orth>
+            </form>
+          </entry>
+
+          <entry n="8">
+            <form>
+              <orth type="standard">Augustus</orth>
+            </form>
+          </entry>
+
+          <entry n="9">
+            <form>
+              <orth type="standard">September</orth>
+            </form>
+          </entry>
+
+          <entry n="10">
+            <form>
+              <orth type="standard">October</orth>
+            </form>
+          </entry>
+
+          <entry n="11">
+            <form>
+              <orth type="standard">November</orth>
+            </form>
+          </entry>
+
+          <entry n="12">
+            <form>
+              <orth type="standard">December</orth>
+            </form>
+          </entry>
+
+        </div>
+
+        <div xml:lang="grc">
+
+          <entry n="1">
+            <form>
+              <orth type="standard">Ἰανουάριος</orth>
+              <orth type="transliterated">Ianouários</orth>
+            </form>
+          </entry>
+
+          <entry n="2">
+            <form>
+              <orth type="standard">Φεβρουάριος</orth>
+              <orth type="transliterated">Febrouários</orth>
+            </form>
+          </entry>
+
+          <entry n="3">
+            <form>
+              <orth type="standard">Μάρτιος</orth>
+              <orth type="transliterated">Mártios</orth>
+            </form>
+          </entry>
+
+          <entry n="4">
+            <form>
+              <orth type="standard">Ἀπρίλιος</orth>
+              <orth type="transliterated">Aprílios</orth>
+            </form>
+          </entry>
+
+          <entry n="5">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="6">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="7">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="8">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="9">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="10">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="11">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="12">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+        </div>
+
+        <div xml:lang="cop">
+
+          <entry n="1">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="2">
+            <form>
+              <orth type="standard">ⲫⲉⲃⲣⲟⲁⲣⲓⲟⲥ</orth>
+              <orth type="transliterated">febroarios</orth>
+            </form>
+          </entry>
+
+          <entry n="3">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="4">
+            <form>
+              <orth type="standard">ⲁⲡⲗⲓⲗⲓⲟⲥ</orth>
+              <orth type="transliterated">aplilios</orth>
+            </form>
+          </entry>
+
+          <entry n="5">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="6">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="7">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="8">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="9">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="10">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="11">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="12">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+        </div>
+
+        <div xml:lang="syr">
+
+          <entry n="1">
+            <form>
+              <orth type="standard">ܟܵܢܘܿܢ ܒ</orth>
+              <orth type="transliterated">kānōn II</orth>
+            </form>
+          </entry>
+
+          <entry n="2">
+            <form>
+              <orth type="standard">ܫܒ݂ܵܛ</orth>
+              <orth type="transliterated">šḇāṭ</orth>
+            </form>
+          </entry>
+
+          <entry n="3">
+            <form>
+              <orth type="standard">ܐܵܕܲܪ</orth>
+              <orth type="transliterated">ʾāḏar</orth>
+            </form>
+          </entry>
+
+          <entry n="4">
+            <form>
+              <orth type="standard">ܢܝܼܣܵܢ</orth>
+              <orth type="transliterated">nīsān</orth>
+            </form>
+          </entry>
+
+          <entry n="5">
+            <form>
+              <orth type="standard">ܐܝܼܵܪ</orth>
+              <orth type="transliterated">ʾīyār</orth>
+            </form>
+          </entry>
+
+          <entry n="6">
+            <form>
+              <orth type="standard">ܚܙܝܼܪܵܢ</orth>
+              <orth type="transliterated">ḥzīrān</orth>
+            </form>
+          </entry>
+
+          <entry n="7">
+            <form>
+              <orth type="standard">ܬܲܡܘܼܙ</orth>
+              <orth type="transliterated">tammūz</orth>
+            </form>
+          </entry>
+
+          <entry n="8">
+            <form>
+              <orth type="standard">ܐܵܒ</orth>
+              <orth type="transliterated">āb</orth>
+            </form>
+          </entry>
+
+          <entry n="9">
+            <form>
+              <orth type="standard">ܐܝܼܠܘܼܠ</orth>
+              <orth type="transliterated">ʾīlūl</orth>
+            </form>
+          </entry>
+
+          <entry n="10">
+            <form>
+              <orth type="standard">ܬܸܫܪܝܼܢ ܐ</orth>
+              <orth type="transliterated">tešrīn I</orth>
+            </form>
+          </entry>
+
+          <entry n="11">
+            <form>
+              <orth type="standard">ܬܸܫܪܝܼܢ ܒ</orth>
+              <orth type="transliterated">tešrīn II</orth>
+            </form>
+          </entry>
+
+          <entry n="12">
+            <form>
+              <orth type="standard">ܟܵܢܘܿܢ ܐ</orth>
+              <orth type="transliterated">kānōn I</orth>
+            </form>
+          </entry>
+
+        </div>
+
+        <div xml:lang="ar">
+
+          <entry n="1">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="2">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="3">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="4">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="5">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="6">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="7">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="8">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="9">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="10">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="11">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+          <entry n="12">
+            <form>
+              <orth type="standard"></orth>
+              <orth type="transliterated"></orth>
+            </form>
+          </entry>
+
+        </div>
+
+      </div>
 
     </body>
 
   </text>
 
-</TEI>
+  <TEI xml:id="BnFet149">
+
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title></title>
+        </titleStmt>
+        <publicationStmt>
+          <ab/>
+        </publicationStmt>
+        <sourceDesc>
+          <ab/>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+
+        <list>
+          <head>እጽሕፍ፡ ሠርቀ፡ አውራሂሆሙ፡ ለዕብራውያን፨ ወለሮማውያን፡ ኅቡራነ፡ ሰርቅ፨ አምጣነ፡ መዋዕል፡ ዘሎሙ፡ ወባሕቱ፡ ዓውደደ፡ ዓመታቲሆሙ፡ ሊሉይ፨ በወርኃ፡ መስከረም፡ ዘሮሜውያን፡ ወበወርኃ፡ ሚያዝያ፡ ዘዕብራውያን፨</head>
+          <item n="1">ሰረቀ፡ ኔሳን፡ በዕብራውያን፡ እብልዮስ፡ በሮሜ፤ ተርሞ፡ በቅብጢ፡ መርሙዳ፡ በአረቢ፡ ወበግዕዝ፡ ሚያዝያ፤</item>
+          <item n="2">ሠረቀ፡ ዓየር፡ በዕብራውያን፡ ማይዮስ፨ በሮሜ፡ ጵጕ፡ በቅብጢ፡ ባሶንስ፤ በአረቢ፡ ወበግዕዝ፡ ግንቦት፤</item>
+          <item n="3">ሠረቀ፡ አዚራን፡ በዕብራውያን፨ ዮልዮስ፡ በሮሜ፡ ጵዮን፡ በቅብጢ፡ በአና፡ በአረቢ፤ ወግዕዝ፡ ሠረቀ፡ ሰኔ፤</item>
+          <item n="4">ተሙዝ፡ በዕብራያን፡ ኢዮልዮስ፤ በሮሜ፤ አጲፍ፡ በቅብጢ፡ አቢብ፡ በአረቢ፡ ወበግዕዝ፨ ሐምሌ፡</item>
+          <item n="5">ሠረቀ፡ ኤብ፡ በዕብራውያን፡ አውግሥጦስ፡ በሮሜ፡ አሞሴር፤ በቅብጢ፡ ማሴር፡ በአረቢ፡ ወበግዕዝ፡ ነሐሴ፤</item>
+          <item n="6">ሠ፤ አይሉል፡ በዕብራውያን፨ ስብቴብሮስ፡ በሮሜ፡ ቲቶ፤ በቅብጢ፡ ታውት፤ በአረቢ፡ ወበግዕዝ፡ መስከረም፡</item>
+          <item n="7">ሠ፡ ታስሪን፤ በዕብራውያን፡ አከብሮስ፡ በሮሜ፤ ታውፌ፡ በቅብጢ፡ አዲብ፡ በአረቢ፡ ወበግዕዝ፨ ጥቅምት፡</item>
+          <item n="8">ሠ፡ ተአስሪ፡ በዕብራውያን፡ ሜአብሮስ፡ በሮሜ፡ አቴር፡ በቅብጢ፡ ሐቱር፨ በዐረቢ፡ ወበግዕዝ፡ ሕዳር፡</item>
+          <item n="9">ሠ፡ ካሴል፡ በዕብራውያን፡ ድክቢሮስ፨ በሮሜ፡ ኵርያቅ፡ በቅብጢ፡ ኪርያክ፡ በዓረቢ፤ ወበግዝ፡ ታኅሣሥ፡ ክኑን፡ ይ፤ ታኅሣሥ፡ ሠ፡ ክኑን፡ በዕብራውያን፡ ለጥርሂ፡ ይብልዎ፨</item>
+          <item n="10">ሠ፡ ዲኑን፡ በዕብራውያን፡ ዮናርዮስ፡ በሮሜ፨ ጦቢ፡ በቅብጢ፡ ጡባ፡ በዓረቢ፡ ወበግዕዝ፡ ጥር፤</item>
+          <item n="11">ሠ፤ ሳባጥ፡ በዕብራውያን፡ ፊብላርዮን፡ በሮሜ፡ ሜኬር፡ በቅብጢ፡ አሴር፡ በዓረቢ፡ ወበግዕዝ፡ የካቲት፡</item>
+          <item n="12">ሠረቀ፡ አዲር፡ በዕብራውያን፡ ማርቆስ፨ በሮሜ፡ ፊሞስ፡ በቅብጢ፡ በሪምሐት፡ በዓረቢ፤ ወበግዝ፡ መጋቢት፡</item>
+        </list>
+
+        <list>
+          <head>አስማተ፡ አውራኅ፡ በልሳነ፤ ጽርዕ፡</head>
+          <item n="1">ያኑኢራኢስ፡ ጥር፡</item>
+          <item n="2">ፊብሩአርዑስ፨ የካቲት፡</item>
+          <item n="3">ማፅርኢስ፡ መጋቢት፡</item>
+          <item n="4">አፓሊዑስ፡ ሚያዝያ፨</item>
+          <item n="5">ማዱኢስ፡ ግንቦት፡</item>
+          <item n="6">ዩኒዑስ፡ ሰኔ፡</item>
+          <item n="7">የልዑስ፡ ሐምሌ፡</item>
+          <item n="8">አጕስቴስ፨ ነሐሴ፡</item>
+          <item n="9">ስትባር፤ መስከረም፡</item>
+          <item n="10">አክባር፡ ጥቅምት፡</item>
+          <item n="11">አምሞባር፡ ኅዳር፨</item>
+          <item n="12">ይጽመት፡ ታኅሣሥ፡</item>
+        </list>
+
+        <list>
+          <head>አስማተ፡ ወርኅ፡ ዘቅብጢ፤</head>
+          <item n="1">ታውት፡ መስከረም፡</item>
+          <item n="2">ባባ፡ ጥቅምት፡</item>
+          <item n="3">ሕቱ፡ ኅዳር፨</item>
+          <item n="4">ኪርያክ፡ ታኅሣሥ፡</item>
+          <item n="5">ጡባ፡ ጥር፤</item>
+          <item n="6">አሞሲር፡ የካቲት፡</item>
+          <item n="7">በረምሐት፡ መጋቢት፡</item>
+          <item n="8">መርሙዳ፡ ሚያዚያ፤</item>
+          <item n="9">ባሶንስ፡ ግንቦት፡</item>
+          <item n="10">በአውና፡ ሰኔ፡</item>
+          <item n="11">አቢብ፡ ሐምሌ፡</item>
+          <item n="12">ሜስራ፡ ነሐሴ፨</item>
+        </list>
+    
+      </body>
+    </text>
+
+  </TEI>
+
+</teiCorpus>
