@@ -12,47 +12,55 @@
       </head>
       <body>
 
-        <xsl:for-each select="tei:text/tei:body/tei:div[@type='calendar']">
-          <h3 class="title is-3">
-            <xsl:value-of select="tei:label"/>
-          </h3>
+        <section class="section">
+        
+          <div class="container content">
 
-          <table class="table">
+            <xsl:for-each select="tei:text/tei:body/tei:div[@type='calendar']">
+              <h3 class="title is-3">
+                <xsl:value-of select="tei:label"/>
+              </h3>
 
-            <tr>
+              <table class="table">
 
-              <th></th>
+                <tr>
 
-              <xsl:for-each select="tei:div">
-                <xsl:variable name="language" select="@xml:lang" />
+                  <th></th>
 
-                <th><xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language[@ident=$language]" /></th>
+                  <xsl:for-each select="tei:div">
+                    <xsl:variable name="language" select="@xml:lang" />
 
-              </xsl:for-each>
+                    <th><xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language[@ident=$language]" /></th>
 
-            </tr>
+                  </xsl:for-each>
 
-            <xsl:for-each select="tei:div[1]/tei:entry">
-              <xsl:variable name="month" select="@n" />
+                </tr>
 
-              <tr>
-                <th><xsl:value-of select="$month" /></th>
+                <xsl:for-each select="tei:div[1]/tei:entry">
+                  <xsl:variable name="month" select="@n" />
 
-                <xsl:for-each select="../../tei:div/tei:entry[@n=$month]">
-                  <td>
-                    <span><xsl:value-of select="tei:form/tei:orth[@type='standard']"/></span>
-                    <xsl:if test="tei:form/tei:orth[@type='transliterated']">
-                      <br/>
-                      <em><xsl:value-of select="tei:form/tei:orth[@type='transliterated']"/></em>
-                    </xsl:if>
-                  </td>
+                  <tr>
+                    <th><xsl:value-of select="$month" /></th>
+
+                    <xsl:for-each select="../../tei:div/tei:entry[@n=$month]">
+                      <td>
+                        <span><xsl:value-of select="tei:form/tei:orth[@type='standard']"/></span>
+                        <xsl:if test="tei:form/tei:orth[@type='transliterated']">
+                          <br/>
+                          <em><xsl:value-of select="tei:form/tei:orth[@type='transliterated']"/></em>
+                        </xsl:if>
+                      </td>
+                    </xsl:for-each>
+                  </tr>
+
                 </xsl:for-each>
-              </tr>
 
+              </table>
             </xsl:for-each>
 
-          </table>
-        </xsl:for-each>
+          </div>
+
+        </section>
 
       </body>
     </html>
