@@ -421,7 +421,7 @@
 
       </div>
 
-      <div type="calendar">
+      <div type="calendar" xml:id="julian">
         <label>Julian Calendar</label>
 
         <div xml:lang="lat">
@@ -868,9 +868,26 @@
         <publicationStmt>
           <ab/>
         </publicationStmt>
+
         <sourceDesc>
-          <ab/>
+          <msDesc>
+
+            <msIdentifier>
+              <settlement>Paris</settlement>
+              <repository>
+                <name>Bibliothèque nationale de France</name>
+                <abbr>BnF</abbr>
+              </repository>
+              <collection>
+                <name>Éthiopien</name>
+                <abbr>Éth.</abbr>
+              </collection>
+              <idno>149</idno>
+            </msIdentifier>
+
+          </msDesc>
         </sourceDesc>
+
       </fileDesc>
     </teiHeader>
     <text>
@@ -878,26 +895,26 @@
 
         <list>
           <head>እጽሕፍ፡ ሠርቀ፡ አውራሂሆሙ፡ ለዕብራውያን፨ ወለሮማውያን፡ ኅቡራነ፡ ሰርቅ፨ አምጣነ፡ መዋዕል፡ ዘሎሙ፡ ወባሕቱ፡ ዓውደደ፡ ዓመታቲሆሙ፡ ሊሉይ፨ በወርኃ፡ መስከረም፡ ዘሮሜውያን፡ ወበወርኃ፡ ሚያዝያ፡ ዘዕብራውያን፨</head>
-          <item n="1">ሰረቀ፡ ኔሳን፡ በዕብራውያን፡ እብልዮስ፡ በሮሜ፤ ተርሞ፡ በቅብጢ፡ መርሙዳ፡ በአረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/8">ሚያዝያ፤</w></item>
-          <item n="2">ሠረቀ፡ ዓየር፡ በዕብራውያን፡ ማይዮስ፨ በሮሜ፡ ጵጕ፡ በቅብጢ፡ ባሶንስ፤ በአረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/9">ግንቦት፤</w></item>
-          <item n="3">ሠረቀ፡ አዚራን፡ በዕብራውያን፨ ዮልዮስ፡ በሮሜ፡ ጵዮን፡ በቅብጢ፡ በአና፡ በአረቢ፤ ወግዕዝ፡ ሠረቀ፡ <w lemmaRef="alexandrian/gez/10">ሰኔ፤</w></item>
-          <item n="4">ተሙዝ፡ በዕብራያን፡ ኢዮልዮስ፤ በሮሜ፤ አጲፍ፡ በቅብጢ፡ አቢብ፡ በአረቢ፡ ወበግዕዝ፨ <w lemmaRef="alexandrian/gez/11">ሐምሌ፡</w></item>
-          <item n="5">ሠረቀ፡ ኤብ፡ በዕብራውያን፡ አውግሥጦስ፡ በሮሜ፡ አሞሴር፤ በቅብጢ፡ ማሴር፡ በአረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/12">ነሐሴ፤</w></item>
-          <item n="6">ሠ፤ አይሉል፡ በዕብራውያን፨ ስብቴብሮስ፡ በሮሜ፡ ቲቶ፤ በቅብጢ፡ ታውት፤ በአረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/1">መስከረም፡</w></item>
-          <item n="7">ሠ፡ ታስሪን፤ በዕብራውያን፡ አከብሮስ፡ በሮሜ፤ ታውፌ፡ በቅብጢ፡ አዲብ፡ በአረቢ፡ ወበግዕዝ፨ <w lemmaRef="alexandrian/gez/2">ጥቅምት፡</w></item>
-          <item n="8">ሠ፡ ተአስሪ፡ በዕብራውያን፡ ሜአብሮስ፡ በሮሜ፡ አቴር፡ በቅብጢ፡ ሐቱር፨ በዐረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/3">ሕዳር፡</w></item>
-          <item n="9">ሠ፡ ካሴል፡ በዕብራውያን፡ ድክቢሮስ፨ በሮሜ፡ ኵርያቅ፡ በቅብጢ፡ ኪርያክ፡ በዓረቢ፤ ወበግዝ፡<w lemmaRef="alexandrian/gez/4">ታኅሣሥ፡</w> ክኑን፡ ይ፤ ታኅሣሥ፡ ሠ፡ ክኑን፡ በዕብራውያን፡ ለጥርሂ፡ ይብልዎ፨</item>
-          <item n="10">ሠ፡ ዲኑን፡ በዕብራውያን፡ ዮናርዮስ፡ በሮሜ፨ ጦቢ፡ በቅብጢ፡ ጡባ፡ በዓረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/5">ጥር፤</w></item>
-          <item n="11">ሠ፤ ሳባጥ፡ በዕብራውያን፡ ፊብላርዮን፡ በሮሜ፡ ሜኬር፡ በቅብጢ፡ አሴር፡ በዓረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/6">የካቲት፡</w></item>
-          <item n="12">ሠረቀ፡ አዲር፡ በዕብራውያን፡ ማርቆስ፨ በሮሜ፡ ፊሞስ፡ በቅብጢ፡ በሪምሐት፡ በዓረቢ፤ ወበግዝ፡ <w lemmaRef="alexandrian/gez/7">መጋቢት፡</w></item>
+          <item n="1">ሰረቀ፡ ኔሳን፡ በዕብራውያን፡ <w lemmaRef="julian/lat/4">እብልዮስ፡</w> በሮሜ፤ <w lemmaRef="alexandrian/cop/8">ተርሞ፡</w> በቅብጢ፡ መርሙዳ፡ በአረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/8">ሚያዝያ፤</w></item>
+          <item n="2">ሠረቀ፡ ዓየር፡ በዕብራውያን፡ <w lemmaRef="julian/lat/5">ማይዮስ፨</w> በሮሜ፡ <w lemmaRef="alexandrian/cop/9">ጵጕ፡</w> በቅብጢ፡ ባሶንስ፤ በአረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/9">ግንቦት፤</w></item>
+          <item n="3">ሠረቀ፡ አዚራን፡ በዕብራውያን፨ <w lemmaRef="julian/lat/6">ዮልዮስ፡</w> በሮሜ፡ <w lemmaRef="alexandrian/cop/10">ጵዮን፡</w> በቅብጢ፡ በአና፡ በአረቢ፤ ወግዕዝ፡ ሠረቀ፡ <w lemmaRef="alexandrian/gez/10">ሰኔ፤</w></item>
+          <item n="4">ተሙዝ፡ በዕብራያን፡ <w lemmaRef="julian/lat/7">ኢዮልዮስ፤</w> በሮሜ፤ <w lemmaRef="alexandrian/cop/11">አጲፍ፡</w> በቅብጢ፡ አቢብ፡ በአረቢ፡ ወበግዕዝ፨ <w lemmaRef="alexandrian/gez/11">ሐምሌ፡</w></item>
+          <item n="5">ሠረቀ፡ ኤብ፡ በዕብራውያን፡ <w lemmaRef="julian/lat/8">አውግሥጦስ፡</w> በሮሜ፡ <w lemmaRef="alexandrian/cop/12">አሞሴር፤</w> በቅብጢ፡ ማሴር፡ በአረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/12">ነሐሴ፤</w></item>
+          <item n="6">ሠ፤ አይሉል፡ በዕብራውያን፨ <w lemmaRef="julian/lat/9">ስብቴብሮስ፡</w> በሮሜ፡ <w lemmaRef="alexandrian/cop/1">ቲቶ፤</w> በቅብጢ፡ ታውት፤ በአረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/1">መስከረም፡</w></item>
+          <item n="7">ሠ፡ ታስሪን፤ በዕብራውያን፡ <w lemmaRef="julian/lat/10">አከብሮስ፡</w> በሮሜ፤ <w lemmaRef="alexandrian/cop/2">ታውፌ፡</w> በቅብጢ፡ አዲብ፡ በአረቢ፡ ወበግዕዝ፨ <w lemmaRef="alexandrian/gez/2">ጥቅምት፡</w></item>
+          <item n="8">ሠ፡ ተአስሪ፡ በዕብራውያን፡ <w lemmaRef="julian/lat/11">ሜአብሮስ፡</w> በሮሜ፡ <w lemmaRef="alexandrian/cop/3">አቴር፡</w> በቅብጢ፡ ሐቱር፨ በዐረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/3">ሕዳር፡</w></item>
+          <item n="9">ሠ፡ ካሴል፡ በዕብራውያን፡ <w lemmaRef="julian/lat/12">ድክቢሮስ፨</w> በሮሜ፡ <w lemmaRef="alexandrian/cop/4">ኵርያቅ፡</w> በቅብጢ፡ ኪርያክ፡ በዓረቢ፤ ወበግዝ፡<w lemmaRef="alexandrian/gez/4">ታኅሣሥ፡</w> ክኑን፡ ይ፤ ታኅሣሥ፡ ሠ፡ ክኑን፡ በዕብራውያን፡ ለጥርሂ፡ ይብልዎ፨</item>
+          <item n="10">ሠ፡ ዲኑን፡ በዕብራውያን፡ <w lemmaRef="julian/lat/1">ዮናርዮስ፡</w> በሮሜ፨ <w lemmaRef="alexandrian/cop/5">ጦቢ፡</w> በቅብጢ፡ ጡባ፡ በዓረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/5">ጥር፤</w></item>
+          <item n="11">ሠ፤ ሳባጥ፡ በዕብራውያን፡ <w lemmaRef="julian/lat/2">ፊብላርዮን፡</w> በሮሜ፡ <w lemmaRef="alexandrian/cop/6">ሜኬር፡</w> በቅብጢ፡ አሴር፡ በዓረቢ፡ ወበግዕዝ፡ <w lemmaRef="alexandrian/gez/6">የካቲት፡</w></item>
+          <item n="12">ሠረቀ፡ አዲር፡ በዕብራውያን፡ <w lemmaRef="julian/lat/3">ማርቆስ፨</w> በሮሜ፡ <w lemmaRef="alexandrian/cop/7">ፊሞስ፡</w> በቅብጢ፡ በሪምሐት፡ በዓረቢ፤ ወበግዝ፡ <w lemmaRef="alexandrian/gez/7">መጋቢት፡</w></item>
         </list>
 
         <list>
           <head>አስማተ፡ አውራኅ፡ በልሳነ፤ ጽርዕ፡</head>
-          <item n="1">ያኑኢራኢስ፡ ጥር፡</item>
-          <item n="2">ፊብሩአርዑስ፨ የካቲት፡</item>
-          <item n="3">ማፅርኢስ፡ መጋቢት፡</item>
-          <item n="4">አፓሊዑስ፡ ሚያዝያ፨</item>
+          <item n="1"><w lemmaRef="julian/grc/1">ያኑኢራኢስ፡</w> ጥር፡</item>
+          <item n="2"><w lemmaRef="julian/grc/2">ፊብሩአርዑስ፨</w> የካቲት፡</item>
+          <item n="3"><w lemmaRef="julian/grc/3">ማፅርኢስ፡</w> መጋቢት፡</item>
+          <item n="4"><w lemmaRef="julian/grc/4">አፓሊዑስ፡</w> ሚያዝያ፨</item>
           <item n="5">ማዱኢስ፡ ግንቦት፡</item>
           <item n="6">ዩኒዑስ፡ ሰኔ፡</item>
           <item n="7">የልዑስ፡ ሐምሌ፡</item>
@@ -922,6 +939,54 @@
           <item n="10">በአውና፡ ሰኔ፡</item>
           <item n="11">አቢብ፡ ሐምሌ፡</item>
           <item n="12">ሜስራ፡ ነሐሴ፨</item>
+        </list>
+    
+      </body>
+    </text>
+
+  </TEI>
+
+  <TEI xml:id="EMML2063">
+
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title></title>
+        </titleStmt>
+        <publicationStmt>
+          <ab/>
+        </publicationStmt>
+
+        <sourceDesc>
+          <msDesc>
+
+            <msIdentifier>
+              <settlement>Ḥayq ʾƎsṭifānos</settlement>
+              <idno>EMML 2063</idno>
+            </msIdentifier>
+
+          </msDesc>
+        </sourceDesc>
+
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+
+        <list>
+          <head>ዝውእቱ፡ ዐውደ፡ ዓመቶሙ፡ ለደቂቀ፡ እስራኤል፡</head>
+          <item n="1">ሠረቀ፡ ኔሳን፡ በዕብራዊያን፨ <w lemmaRef="julian/lat/4">አብልርዮስ፡</w> በሮሜ፡ እም፮ለወርኀ፡ ሚያዝያ፡ መዋዕሊሁ፡ ፴</item>
+          <item n="2">ሠረቀ፡ አየር፡ በዕብራዊያን፡ <w lemmaRef="julian/lat/5">ማይዮስ፡</w> በሮሜ፡ አመ፡ ፮ ለግንቦት፡ መዋዕሊሁ፡ ፴፩፨</item>
+          <item n="3">ሠርቀ፡ ሐዚራን፡ በዕብራዊያን፡ <w lemmaRef="julian/lat/6">ዩልዮስ፡</w> በሮሜ፨ አመ፡ ፯ ለሰኔ፡ መዋዕሊሁ፡ ፴</item>
+          <item n="4">ሠርቀ፡ ተሙዝ፡ በዕብራዊያን፡ <w lemmaRef="julian/lat/7">ኢዩልዮስ፡</w> በሮሜ፨ አመ፡ ፮ ለሐምሌ፡ መዋዕሊሁ፡ ፴፩</item>
+          <item n="5">ሠርቀ፡ አብ፡ በዕብራዊያን፡ <w lemmaRef="julian/lat/8">አውግስጦስ፡</w> በሮሜ፨ አመ[፡] ፰ ለነሐሴ፡ መዋዕሊሁ፡ ፴፩</item>
+          <item n="6">ሠርቀ፡ ኤሎል፡ በዕብራዊያን፡ <w lemmaRef="julian/lat/9">ስብቴብሮስ፡</w> በሮሜ፨ አመ፡ ፬ ለመስከረም፡ መዋዕሊሁ፡ ፴፡</item>
+          <item n="7">ሠረቀ፡ ተስሪን፡ ቀዳማይ፡ በዕብራዊያን፡ <w lemmaRef="julian/lat/10">ንክቶብሮስ፡</w> በሮሜ፨ አመ፡ ፬ ለጥቅምት፡ መዋዕሊሁ፡ ፴፩</item>
+          <item n="8">ሠርቀ፡ ተስሪን፡ ዳግማይ፡ በዕብራዊያን፡ <w lemmaRef="julian/lat/11">ኖኤብሮስ፡</w> በሮሜ፨ አመ፡ ፭ ለኅዳር፡ መዋዕሊሁ፡ ፴</item>
+          <item n="9">ሠረቀ፡ ካኑን፡ ቀዳማይ፡ በዕብራዊያን፡ <w lemmaRef="julian/lat/12">ድኬብሮስ፡</w> በሮሜ፡ አመ፡ ፭ ለታኅሣሥ፡ መዋዕሊሁ፡ ፴፩</item>
+          <item n="10">ሠርቀ፡ ካኑን፡ ደኀራይ፡ በዕብራዊያን፡ <w lemmaRef="julian/lat/1">ዮናሬዮስ፡</w> በሮሜ፡ አመ፡ ፮ ለጥር፡ መዋዕሊሁ፡ ፴፩፨</item>
+          <item n="11">ሠረቀ፡ ሳቤጥ፡ በዕብራውያን፡ <w lemmaRef="julian/lat/2">ፍሌብላርዮስ፡</w> በሮሜ፡ አመ፡ ፯፡ ለየካቲት፡ መዋዕሊሁ፡ ፳፰፡ ከመዝ፡ ይከውን፡ ፫፡ ዓመተ፨ ወበመዋዕለ፡ ዮሐንስ፡ ይከውን፡ ፳፱፡ ዕለተ፨ ወእምዝ፡ ይበውእ፡ ዕለተ፡ ሰግሮሙ፡ ለሮማዊያን፡ እስመ፡ ዕለተ፡ ምርያ፡ ይእቲ፨</item>
+          <item n="12">ሠረቀ፡ አዳር፡ በዕብራዊያን፡ <w lemmaRef="julian/lat/3">ማርቶስ፡</w> በሮሜ፡ አመ፡ ፭፡ ለመጋቢት፡ መዋዕሊሁ፡ ፴፩</item>
         </list>
     
       </body>
