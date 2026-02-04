@@ -90,7 +90,7 @@
 
           </div>
         </section>
-
+<hr/>
         <section class="section" id="compare-lang">
           <div class="container">
 
@@ -200,7 +200,7 @@
 
           </div>
         </section>
-
+<hr/>
         <section class="section" id="compare-month">
           <div class="container">
 

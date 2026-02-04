@@ -1086,4 +1086,61 @@
 
   </TEI>
 
+  <TEI xml:id="KB-DKetiop2">
+
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title></title>
+        </titleStmt>
+        <publicationStmt>
+          <ab/>
+        </publicationStmt>
+
+        <sourceDesc>
+          <msDesc>
+
+            <msIdentifier>
+              <settlement>Copenhagen</settlement>
+              <repository>
+                <name>Det Kongelige Bibliotek</name>
+                <abbr>KB-DK</abbr>
+              </repository>
+              <collection>
+                <name>etiopiske</name>
+                <abbr>et.</abbr>
+              </collection>
+              <idno>2</idno>
+            </msIdentifier>
+
+          </msDesc>
+        </sourceDesc>
+
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+
+        <list>
+          <head>Nomina mensium Æthiopicè et Coptice, J Wanslebij oxonij descripsit. ስሞን፡ ለአውራኅ፡ በነገር፡ ዐረቢ።</head>
+          <item n="1"><w lemmaRef="alexandrian/gez/1">መስከረም፡</w> ብሂል፡ <w lemmaRef="alexandrian/ar/1">ቶት፡</w></item>
+          <item n="2"><w lemmaRef="alexandrian/gez/2">ጥቅምት፡</w> ብ፡ <w lemmaRef="alexandrian/ar/2">ባቤ፡</w></item>
+          <item n="3"><w lemmaRef="alexandrian/gez/3">ኅዳር፡</w> ብ፡ <w lemmaRef="alexandrian/ar/3">ኃቱር፡</w></item>
+          <item n="4"><w lemmaRef="alexandrian/gez/4">ታኅሣሥ፡</w> ብ፡ <w lemmaRef="alexandrian/ar/4">ኪያሀክ፡</w></item>
+          <item n="5"><w lemmaRef="alexandrian/gez/5">ጥር፡</w> ብ፡ <w lemmaRef="alexandrian/ar/5">ጡባ፡</w></item>
+          <item n="6"><w lemmaRef="alexandrian/gez/6">የካቲት፡</w> ብ፡ <w lemmaRef="alexandrian/ar/6">አምሲር፡</w></item>
+          <item n="7"><w lemmaRef="alexandrian/gez/7">መጋቢት፡</w> ብ፡ <w lemmaRef="alexandrian/ar/7">በርመሀት፡</w></item>
+          <item n="8"><w lemmaRef="alexandrian/gez/8">ሚያዝያ፡</w> ብ፡ <w lemmaRef="alexandrian/ar/8">በርሞድ፡</w></item>
+          <item n="9"><w lemmaRef="alexandrian/gez/9">ግንቦት፡</w> ብ፡ <w lemmaRef="alexandrian/ar/9">በሸንሽ፡</w></item>
+          <item n="10"><w lemmaRef="alexandrian/gez/10">ስኔ፡</w> ብ፡ <w lemmaRef="alexandrian/ar/10">ባዑኔ፡</w></item>
+          <item n="11"><w lemmaRef="alexandrian/gez/11">ሐምሌ፡</w> ብ፡ <w lemmaRef="alexandrian/ar/11">አቢብ፡</w></item>
+          <item n="12"><w lemmaRef="alexandrian/gez/12">ናሐሴ፡</w> ብ፡ <w lemmaRef="alexandrian/ar/12">መሰረ</w></item>
+          <item n="13"><w lemmaRef="alexandrian/gez/13">ጳጉሚን፡</w> ብ፡ <w lemmaRef="alexandrian/ar/13">ንዕስ፡</w></item>
+        </list>
+    
+      </body>
+    </text>
+
+  </TEI>
+
 </teiCorpus>
